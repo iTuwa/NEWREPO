@@ -4,6 +4,7 @@ import numpy as np
 
 def load():
     model = joblib.load('flower.pkl')
+    print('Steve')
     return model
 
 def main():
